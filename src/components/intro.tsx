@@ -16,7 +16,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[70rem] sm:mb-0 scroll-mt-[100rem]"
+      className="mb-28 max-w-[70rem] sm:mb-0 scroll-mt-[100rem] cursor-default"
     >
       <div className="flex items-center justify-center">
         <motion.div
@@ -53,7 +53,6 @@ export default function Intro() {
           <p className="text-5xl">
             I’m
             <span className="text-[red] dark:text-[#12F7D6]"> Sevara</span>,
-            {/* font to'g'irlash kk */}
           </p>
           <p className="text-5xl">Frontend Developer.</p>
           <p className="text-base text-[#f25656] dark:text-[#93feee] -ml-3">
