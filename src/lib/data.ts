@@ -1,9 +1,6 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import img from "../../public/moon.svg";
-import comp from "../../public/comp.svg";
 
 export const links = [
   {
@@ -34,46 +31,26 @@ export const links = [
 
 export const educationsData = [
   {
-    id: "1",
-    title: "lorem",
-    location: "lorem",
-    description: "lorem ipsum dolor.",
-    // icon: React.createElement(LuGraduationCap),
-    date: "2023",
+    title: "Russian language",
+    location: "",
+    description: "I studied the Russian language course for 1 year.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021",
   },
   {
-    title: "lorem",
-    location: "lorem",
-    description: "lorem ipsum dolor",
-    // icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2023",
+    title: "Frontend ReactJS",
+    location: "Najot Ta'lim",
+    description:
+      "I studied at the 8-month Frontend ReactJS course of the «Najot Ta'lim» educational center.",
+    icon: React.createElement(FaReact),
+    date: "2023 - 2024",
   },
   {
-    title: "lorem",
-    location: "lorem",
-    description: "lorem ipsum dolor.",
-    // icon: React.createElement(FaReact),
+    title: "English language",
+    location: "",
+    description:
+      "And now I want to learn more by taking an English course. Because for Frontend I need to learn it thoroughly)",
+    icon: React.createElement(LuGraduationCap),
     date: "2024",
-  },
-] as const;
-
-export const projectsData = [
-  {
-    id: "1",
-    title: "Prayer Times",
-    description:
-      "In this project you can see the prayer times of all regions in Uzbekistan. this data comes from the API.",
-    tags: ["HTML", "CSS", "JavaScipt"],
-    ps: "You can also see this project in the resume.",
-    imageUrl: img,
-  },
-  {
-    id: "2",
-    title: "Bootcamp",
-    description:
-      "In this project, you can see store statistics, customers, information about them, list of exchanges, settings, promotions.",
-    tags: ["React", "Tailwind", "Redux"],
-    ps: "You can also see this project in the resume.",
-    imageUrl: comp,
   },
 ] as const;

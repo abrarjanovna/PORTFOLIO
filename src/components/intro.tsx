@@ -58,7 +58,7 @@ export default function Intro() {
           alt="rasm"
         />
         <div className="text-left pl-12 mt-3">
-          <p className="text-base text-[#f25656] dark:text-[#93feee] -ml-3">
+          <p className="f text-base text-[#f25656] dark:text-[#93feee] -ml-3">
             ‹h1›
           </p>
           <p className="text-5xl">Hi,</p>
@@ -67,17 +67,17 @@ export default function Intro() {
             <span className="text-[red] dark:text-[#12F7D6]"> Sevara</span>,
           </p>
           <p className="text-5xl">Frontend Developer.</p>
-          <p className="text-base text-[#f25656] dark:text-[#93feee] -ml-3">
+          <p className="f text-base text-[#f25656] dark:text-[#93feee] -ml-3">
             ‹/h1›
           </p>
           <br />
-          <p className="text-base text-[#f25656] dark:text-[#93feee] -ml-3">
+          <p className="f text-base text-[#f25656] dark:text-[#93feee] -ml-3">
             ‹p›
           </p>
           <p className="text-lg">
             I have more than 1 year of programming experience.
           </p>
-          <p className="text-base text-[#f25656] dark:text-[#93feee] -ml-3">
+          <p className="f text-base text-[#f25656] dark:text-[#93feee] -ml-3">
             ‹/p›
           </p>
         </div>

@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header className="z-[999] relative">
       <motion.div
-        className="fixed left-1/2 w-full border border-white bg-white shadow-lg shadow-black/[0.1] 
+        className="fixed left-1/2 w-full border border-white bg-white shadow-lg shadow-black/[0.1] bg-opacity-80 dark:bg-opacity-80 backdrop-blur-[0.2rem]
         sm:top-6 sm:h-[3.25rem] sm:w-[70rem] sm:rounded-full dark:bg-[#292F36] dark:border-[#292F36] dark:shadow-black/[0.2]"
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
@@ -41,7 +41,15 @@ export default function Header() {
               >
                 {link.name}
                 {link.name === activeSection && (
-                  <motion.span className="bg-gray-100 rounded-full absolute inset-0 -z-10 dark:bg-gray-700"></motion.span>
+                  <motion.span
+                    className="bg-gray-100 rounded-full absolute inset-0 -z-10 dark:bg-gray-700"
+                    layoutId="activeSection"
+                    transition={{
+                      type: "spring",
+                      stiffness: 380,
+                      damping: 30,
+                    }}
+                  ></motion.span>
                 )}
               </Link>
             </motion.li>

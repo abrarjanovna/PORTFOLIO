@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { Toaster } from "react-hot-toast";
 import ThemeContextProvider from "@/context/theme-context";
 import ActiveSectionContextProvider from "@/context/active-section-context";
@@ -8,8 +7,6 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import "./globals.css";
 // import "./i18n";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -23,9 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <link rel="icon" href="https://pipedream.com/s.v0/app_XaLh2x/logo/orig" />
-      <body
-        className={`${inter.className} relative pt-28 sm:pt-36 dark:bg-[#292f36] dark:text-white dark:text-opacity-90`}
-      >
+      <body className="fonts relative pt-28 sm:pt-36 dark:bg-[#292f36] dark:text-white dark:text-opacity-90">
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Header />

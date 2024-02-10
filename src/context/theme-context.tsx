@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext, useEffect, useState } from "react";
+import React, { useEffect, useState, createContext, useContext } from "react";
 
 type Theme = "light" | "dark";
 
@@ -40,10 +40,10 @@ export default function ThemeContextProvider({
 
       if (localTheme === "dark") {
         document.documentElement.classList.add("dark");
-      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        setTheme("dark");
-        document.documentElement.classList.add("dark");
       }
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      setTheme("dark");
+      document.documentElement.classList.add("dark");
     }
   }, []);
 
@@ -65,5 +65,6 @@ export function useTheme() {
   if (context === null) {
     throw new Error("useTheme must be used within a ThemeContextProvider");
   }
+
   return context;
 }
