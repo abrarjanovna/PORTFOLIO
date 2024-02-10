@@ -3,10 +3,11 @@ import { Inter } from "next/font/google";
 import { Toaster } from "react-hot-toast";
 import ThemeContextProvider from "@/context/theme-context";
 import ActiveSectionContextProvider from "@/context/active-section-context";
-import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
+import "./globals.css";
+// import "./i18n";
 
 const inter = Inter({ subsets: ["latin"] });
 

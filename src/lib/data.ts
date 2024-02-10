@@ -23,8 +23,8 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Education",
+    hash: "#education",
   },
   {
     name: "Contact",
@@ -32,8 +32,9 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
+export const educationsData = [
   {
+    id: "1",
     title: "lorem",
     location: "lorem",
     description: "lorem ipsum dolor.",
@@ -58,33 +59,21 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    id: "1",
     title: "Prayer Times",
     description:
       "In this project you can see the prayer times of all regions in Uzbekistan. this data comes from the API.",
     tags: ["HTML", "CSS", "JavaScipt"],
+    ps: "You can also see this project in the resume.",
     imageUrl: img,
   },
   {
+    id: "2",
     title: "Bootcamp",
     description:
       "In this project, you can see store statistics, customers, information about them, list of exchanges, settings, promotions.",
     tags: ["React", "Tailwind", "Redux"],
+    ps: "You can also see this project in the resume.",
     imageUrl: comp,
   },
-] as const;
-
-export const skillsData = [
-  "HTML",
-  "CSS",
-  "SASS",
-  "Bootstrap",
-  "Tailwind",
-  "MUI",
-  "JavaScript",
-  "ReactJS",
-  "Redux",
-  "TypeScript",
-  "Next.js",
-  "Node.js",
-  "GitHub",
 ] as const;
