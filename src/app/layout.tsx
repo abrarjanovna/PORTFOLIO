@@ -6,7 +6,6 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import "./globals.css";
-// import "./i18n";
 
 export const metadata: Metadata = {
   title: "Portfolio",
