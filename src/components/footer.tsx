@@ -8,12 +8,10 @@ import { GrInstagram } from "react-icons/gr";
 import { FiGithub } from "react-icons/fi";
 
 export default function Footer() {
-  const { ref } = useSectionInView("Home");
 
   return (
     <footer
-      ref={ref}
-      id="home"
+      id="footer"
       className="mb-10 px-4 text-center text-gray-500"
     >
       <motion.div
@@ -26,7 +24,7 @@ export default function Footer() {
       >
         <Link
           className="p-2 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] transition hover:text-gray-950 dark:text-white/40 dark:hover:text-white"
-          href="https://t.me/akrv_s"
+          href="https://t.me/akrv"
           target="_blank"
         >
           <PiTelegramLogo />

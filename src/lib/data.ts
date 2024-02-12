@@ -27,6 +27,9 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
+  {
+    hash: "#footer",
+  },
 ] as const;
 
 export const educationsData = [
