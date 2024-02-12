@@ -48,7 +48,7 @@ export default function Intro() {
         </motion.div>
       </div>
       <motion.h1
-        className="flex flex-col mb-10 mt-12 sm:flex-row items-center font-medium !leading-[1.5] sm:text-4xl"
+        className="flex flex-col mb-10 mt-12 sm:flex-row items-center font-semibold !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >

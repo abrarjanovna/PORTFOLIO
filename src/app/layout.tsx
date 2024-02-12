@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <link rel="icon" href="https://pipedream.com/s.v0/app_XaLh2x/logo/orig" />
-      <body className="fonts relative pt-28 sm:pt-36 dark:bg-[#292f36] dark:text-white dark:text-opacity-90">
+      <body className="fonts relative pt-28 sm:pt-36 bg-[#ddd] dark:bg-[#292f36] dark:text-white dark:text-opacity-90">
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Header />

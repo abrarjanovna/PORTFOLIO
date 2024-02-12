@@ -46,7 +46,7 @@ export default function Skills() {
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         <Link href="https://www.w3schools.com/html/" target="_blank">
           <motion.li
-            className="bg-gray-200 hover:bg-gray-300 borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
+            className="bg-gray-100 hover:bg-gray-200 transition borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -59,7 +59,7 @@ export default function Skills() {
         </Link>
         <Link href="https://www.w3schools.com/css/" target="_blank">
           <motion.li
-            className="bg-gray-200 hover:bg-gray-300 borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
+            className="bg-gray-100 hover:bg-gray-200 borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -72,7 +72,7 @@ export default function Skills() {
         </Link>
         <Link href="https://www.w3schools.com/sass/" target="_blank">
           <motion.li
-            className="bg-gray-200 hover:bg-gray-300 borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
+            className="bg-gray-100 hover:bg-gray-200 transition borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -85,7 +85,7 @@ export default function Skills() {
         </Link>
         <Link href="https://www.w3schools.com/bootstrap/" target="_blank">
           <motion.li
-            className="bg-gray-200 hover:bg-gray-300 borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
+            className="bg-gray-100 hover:bg-gray-200 transition borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -98,7 +98,7 @@ export default function Skills() {
         </Link>
         <Link href="https://tailwindcss.com/" target="_blank">
           <motion.li
-            className="bg-gray-200 hover:bg-gray-300 borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
+            className="bg-gray-100 hover:bg-gray-200 transition borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -111,7 +111,7 @@ export default function Skills() {
         </Link>
         <Link href="https://mui.com/" target="_blank">
           <motion.li
-            className="bg-gray-200 hover:bg-gray-300 borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
+            className="bg-gray-100 hover:bg-gray-200 transition borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -124,7 +124,7 @@ export default function Skills() {
         </Link>
         <Link href="https://www.w3schools.com/js/" target="_blank">
           <motion.li
-            className="bg-gray-200 hover:bg-gray-300 borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
+            className="bg-gray-100 hover:bg-gray-200 transition borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -137,7 +137,7 @@ export default function Skills() {
         </Link>
         <Link href="https://react.dev/" target="_blank">
           <motion.li
-            className="bg-gray-200 hover:bg-gray-300 borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
+            className="bg-gray-100 hover:bg-gray-200 transition borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -150,7 +150,7 @@ export default function Skills() {
         </Link>
         <Link href="https://react-redux.js.org/" target="_blank">
           <motion.li
-            className="bg-gray-200 hover:bg-gray-300 borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
+            className="bg-gray-100 hover:bg-gray-200 transition borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -163,7 +163,7 @@ export default function Skills() {
         </Link>
         <Link href="https://www.typescriptlang.org/" target="_blank">
           <motion.li
-            className="bg-gray-200 hover:bg-gray-300 borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
+            className="bg-gray-100 hover:bg-gray-200 transition borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -176,7 +176,7 @@ export default function Skills() {
         </Link>
         <Link href="https://nextjs.org/" target="_blank">
           <motion.li
-            className="bg-gray-200 hover:bg-gray-300 borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
+            className="bg-gray-100 hover:bg-gray-200 transition borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -189,7 +189,7 @@ export default function Skills() {
         </Link>
         <Link href="https://nodejs.org/en" target="_blank">
           <motion.li
-            className="bg-gray-200 hover:bg-gray-300 borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
+            className="bg-gray-100 hover:bg-gray-200 transition borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -202,7 +202,7 @@ export default function Skills() {
         </Link>
         <Link href="https://github.com/" target="_blank">
           <motion.li
-            className="bg-gray-200 hover:bg-gray-300 borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
+            className="bg-gray-100 hover:bg-gray-200 transition borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white/80"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
