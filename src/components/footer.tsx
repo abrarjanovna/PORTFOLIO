@@ -24,7 +24,7 @@ export default function Footer() {
       >
         <Link
           className="p-2 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] transition hover:text-gray-950 dark:text-white/40 dark:hover:text-white"
-          href="https://t.me/akrv"
+          href="https://t.me/akrv_s"
           target="_blank"
         >
           <PiTelegramLogo />
